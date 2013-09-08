@@ -23,3 +23,8 @@ group :development do
   gem 'better_errors'
   gem 'quiet_assets'
 end
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+  gem 'thin'
+end
